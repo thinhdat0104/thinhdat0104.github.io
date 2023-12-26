@@ -7,15 +7,6 @@
         <title>Domain Expansion</title>
         <link rel="icon" type="image/png" href="images/meme_surprised_shocked_pikachu.png">
         <link rel="stylesheet" href="style.css">
-
-        <script>
-            function pageLoaded() {
-                // Speed up the audio 3x so the test doesn't take 10 seconds.
-                var audio = document.getElementById("audio");
-                audio.playbackRate = 3;
-                audio.play();
-            }
-        </script>
     </head>
     <body>
         <header style="text-align: center;" class="head-foot">
@@ -29,6 +20,15 @@
                 <a href="contact.html" class="choose">Contact us</a>
             </span>
             <hr>
+
+            <script>
+                function pageLoaded() {
+                    // Speed up the audio 3x so the test doesn't take 10 seconds.
+                    var audio = document.getElementById("audio");
+                    audio.playbackRate = 3;
+                    audio.play();
+                }
+            </script>
         </header>
 
         <main style="text-align: center;" onload="pageLoaded()">
