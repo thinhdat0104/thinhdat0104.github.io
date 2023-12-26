@@ -1,0 +1,12 @@
+.head-foot{
+    background-color: violet;
+}
+h1{
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 650;
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+.choose{
+    margin-right: 5px;
+}
