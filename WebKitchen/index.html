@@ -7,6 +7,15 @@
         <title>Domain Expansion</title>
         <link rel="icon" type="image/png" href="images/meme_surprised_shocked_pikachu.png">
         <link rel="stylesheet" href="style.css">
+
+        <script>
+            function pageLoaded() {
+                // Speed up the audio 3x so the test doesn't take 10 seconds.
+                var audio = document.getElementById("audio");
+                audio.playbackRate = 3;
+                audio.play();
+            }
+        </script>
     </head>
     <body>
         <header style="text-align: center;" class="head-foot">
@@ -22,7 +31,7 @@
             <hr>
         </header>
 
-        <main style="text-align: center;">
+        <main style="text-align: center;" onload="pageLoaded()">
             <img src="images/Dam_Vinh_Hung.jpeg" alt="Dam Vinh Hung" height="200" type="image/jpeg"style="border: 0px;">
             <img src="images/Dam_Vinh_Hung_2.jpeg" alt="Dam Vinh Hung No.2" height="200" type="image/jpeg"style="border: 0px;">
             <br>
